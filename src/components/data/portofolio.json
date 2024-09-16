@@ -43,5 +43,23 @@
     "desc": "Catch a Pokemon",
     "jenis": "TEST BOOTCAMP",
     "tags": ["React", "Express JS", "Tailwind CSS"]
+  },
+  {
+    "id": 6,
+    "title": "Calculator App",
+    "link": "https://calculatorapp2024.netlify.app/",
+    "image": "../images/calculatorapp.png",
+    "desc": "Calculator App with theme switcher",
+  
+    "tags": ["HTML", "CSS", "Javascript"]
+  },
+  {
+    "id": 7,
+    "title": "Country List",
+    "link": "https://countrylist2024.netlify.app/",
+    "image": "../images/countrylist.png",
+    "desc": "Country List with Dark Mode",
+  
+    "tags": ["React", "Tailwind CSS", "React Router"]
   }
 ]

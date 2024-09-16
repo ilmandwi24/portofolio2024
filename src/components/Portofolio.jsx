@@ -64,18 +64,18 @@ const Portofolio = () => {
                             {portofolios?.slice(0, next)?.map((portofolio) => (
                                 <div className="mb-10 p-3.5 md:w-1/3 " key={portofolio.id}>
                                     <div className="card  bg-base-100 shadow-xl ">
-                                        <figure> <a className="link link-hover" target="_blank" href={portofolio.link}><img src={portofolio.image} alt={portofolio.title} /></a></figure>
+                                        <figure className="h-[165px] overflow-hidden"> <a className="link link-hover" target="_blank" href={portofolio.link}><img src={portofolio.image} alt={portofolio.title} /></a></figure>
                                         <div className="card-body">
                                             <h2 className="card-title ">
                                                 <a className="link link-hover" target="_blank" href={portofolio.link}>{portofolio.title}</a>
 
 
-                                                <div className="badge badge-primary badge-outline text-sm">{portofolio.jenis}</div>
+                                                {portofolio.jenis && <div className="badge badge-primary badge-outline text-sm">{portofolio.jenis}</div>}
                                             </h2>
                                             <p>{portofolio.desc}</p>
                                             <div className="card-actions justify-end mt-1">
-                                                {portofolio.tags?.map((tag) => (
-                                                    <div className="badge badge-outline">{tag}</div>
+                                                {portofolio.tags?.map((tag,index) => (
+                                                    <div key={index} className="badge badge-outline">{tag}</div>
                                                 ))}
                                             </div>
                                         </div>

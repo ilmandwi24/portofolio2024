@@ -11,7 +11,7 @@ import { SiExpress } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BiLogoTailwindCss } from "react-icons/bi";
-
+import materialui from "../images/materialui.svg";
 const Skill = () => {
     const [width, setWidth] = useState(window.innerWidth);
     useEffect(() => {
@@ -19,7 +19,7 @@ const Skill = () => {
             type: "carousel",
             // focusAt: -1,
             animationDuration: 2500,
-            autoplay: 3500,
+            autoplay: false,
 
 
             // autoplay: true,
@@ -50,8 +50,8 @@ const Skill = () => {
     return (
         <section className="pt-16 md:pt-24 pb-24 bg-base-200" id='skill'>
             <div className="container mx-auto">
-                <div class="w-full px-4">
-                    <div class="max-w-xl mx-auto text-center mb-8">
+                <div className="w-full px-4">
+                    <div className="max-w-xl mx-auto text-center mb-8">
                         <h1 className="text-3xl md:text-4xl font-bold">Skill</h1>
                     </div>
                 </div>
@@ -193,6 +193,18 @@ const Skill = () => {
 
 
                                         </div>
+                                        <div className="relative p-6 bg-white text-slate-900 shadow-2xl shadow-slate-200 h-full overflow-hidden rounded basis-[30%]">
+                                            <figure className="relative z-10">
+                                                <div className='flex items-center mx-auto flex-col'>
+                                                    {/* <BiLogoTailwindCss size={width < 640 ? 60 : 65} /> */}
+                                                    <img src={materialui} alt="materialui"  width={width < 640 ? 60 : 65} />
+                                                    <h3 className='text-base md:text-2xl font-bold'>Material UI</h3>
+                                                </div>
+
+                                            </figure>
+
+
+                                        </div>
 
                                     </div>
                                     {/*                    <!-- End Testimonial --> */}
@@ -211,21 +223,21 @@ const Skill = () => {
                             aria-label="goto slide 1"
 
                         >
-                            <span className="block h-2 w-2 rounded-full bg-white/20 opacity-70 ring-1 ring-slate-700 transition-colors duration-300 focus:outline-none"></span>
+                            <span className="block h-2.5 w-2.5 rounded-full bg-white/20 opacity-70 ring-1 ring-slate-700 transition-colors duration-300 focus:outline-none"></span>
                         </button>
                         <button
                             className="group p-4"
                             data-glide-dir="=1"
                             aria-label="goto slide 1"
                         >
-                            <span className="block h-2 w-2 rounded-full bg-white/20 opacity-70 ring-1 ring-slate-700 transition-colors duration-300 focus:outline-none"></span>
+                            <span className="block h-2.5 w-2.5 rounded-full bg-white/20 opacity-70 ring-1 ring-slate-700 transition-colors duration-300 focus:outline-none"></span>
                         </button>
                         <button
                             className="group p-4"
                             data-glide-dir="=2"
                             aria-label="goto slide 1"
                         >
-                            <span className="block h-2 w-2 rounded-full bg-white/20 opacity-70 ring-1 ring-slate-700 transition-colors duration-300 focus:outline-none"></span>
+                            <span className="block h-2.5 w-2.5 rounded-full bg-white/20 opacity-70 ring-1 ring-slate-700 transition-colors duration-300 focus:outline-none"></span>
                         </button>
 
 
