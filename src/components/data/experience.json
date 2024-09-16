@@ -1,0 +1,37 @@
+[
+  {
+    "id": 51,
+    "title": "Belajar Dasar Pemrograman JavaScript",
+    "link": "https://www.dicoding.com/certificates/JLX1LV00NX72",
+    "penyelenggara": "Dicoding Indonesia",
+    "tanggal": "24 Jan 2023"
+  },
+  {
+    "id": 52,
+    "title": "Belajar Membuat Aplikasi Back-End Untuk Pemula",
+    "link": "https://www.dicoding.com/certificates/2VX3J2M34PYQ",
+    "penyelenggara": "Dicoding Indonesia",
+    "tanggal": "18 Apr 2023"
+  },
+  {
+    "id": 53,
+    "title": "Cloud Practitioner Essentials (Belajar Dasar AWS Cloud)",
+    "link": "https://www.dicoding.com/certificates/2VX3J2M34PYQ",
+    "penyelenggara": "Dicoding Indonesia",
+    "tanggal": "17 Apr 2023"
+  },
+  {
+    "id": 54,
+    "title": "NodeJS : Pemula sampai Mahir",
+    "link": "https://www.udemy.com/certificate/UC-56d182c5-90bf-4d2e-b9b2-385611a30282/",
+    "penyelenggara": "udemy - Programmer Zaman Now",
+    "tanggal": "15 Aug 2023"
+  },
+  {
+    "id": 55,
+    "title": "Laravel : Pemula sampai Mahir",
+    "link": "https://www.udemy.com/certificate/UC-5ebe8d24-7109-417a-a3b8-e6399b9cd6ea/",
+    "penyelenggara": "udemy - Programmer Zaman Now",
+    "tanggal": "14 Mar 2024"
+  }
+]

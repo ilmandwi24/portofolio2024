@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Vanlife Web",
+    "link": "https://second-react-web.netlify.app",
+    "image": "../images/vanlife-web.png",
+    "desc": "Travel vans website",
+    "jenis": "BELAJAR",
+    "tags": ["React", "Firebase"]
+  },
+  {
+    "id": 2,
+    "title": "Portofolio web",
+    "link": "https://ilmandwidev.github.io/portofolio-tailwindcss/",
+    "image": "../images/portofolio-tailwindcss.png",
+    "desc": "Portofolio dengan Tailwind CSS",
+    "jenis": "BELAJAR",
+    "tags": ["Tailwind CSS"]
+  },
+  {
+    "id": 3,
+    "title": "Hosting Provider",
+    "link": "https://ilmandwidev.github.io/hosting-provider-react/",
+    "image": "../images/hosting-provider.png",
+    "desc": "Landing Page dengan React & Tailwind",
+    "jenis": "BELAJAR",
+    "tags": ["React", "Tailwind CSS"]
+  },
+  {
+    "id": 4,
+    "title": "Todo List",
+    "link": "https://todolist.widev.xyz",
+    "image": "../images/laravel-todolist.png",
+    "desc": "Portofolio dengan Tailwind CSS",
+    "jenis": "BELAJAR",
+    "tags": ["Laravel", "MySQL", "Bootstrap"]
+  },
+  {
+    "id": 5,
+    "title": "Pokemon Web",
+    "link": "https://pokemon.widev.xyz",
+    "image": "../images/pokemon-web.png",
+    "desc": "Catch a Pokemon",
+    "jenis": "TEST BOOTCAMP",
+    "tags": ["React", "Express JS", "Tailwind CSS"]
+  }
+]
