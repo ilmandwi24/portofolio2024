@@ -11,7 +11,7 @@
   {
     "id": 2,
     "title": "Portofolio web",
-    "link": "https://ilmandwidev.github.io/portofolio-tailwindcss/",
+    "link": "https://ilmandwi24.github.io/portofolio-tailwindcss/",
     "image": "../images/portofolio-tailwindcss.png",
     "desc": "Portofolio dengan Tailwind CSS",
     "jenis": "BELAJAR",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Hosting Provider",
-    "link": "https://ilmandwidev.github.io/hosting-provider-react/",
+    "link": "https://ilmandwi24.github.io/hosting-provider-react/",
     "image": "../images/hosting-provider.png",
     "desc": "Landing Page dengan React & Tailwind",
     "jenis": "BELAJAR",
